@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Introduction() {
   return (
@@ -9,7 +10,7 @@ function Introduction() {
                 {/* <p className='md:text-3xl text-2xl italic text-center'>Transforming ideas into seamless software solutions... </p> */}
             </div>
             <div className= 'block md:inline-block mx-auto my-0'>
-                <img src='/dummy.png' alt="Kinnari Tamhane" className='rounded-full md:h-[300px] h-[250px] mt-5 md:mt-0'/>
+                <Image src='/dummy.png' alt="Kinnari Tamhane" className='rounded-full md:h-[300px] h-[250px] mt-5 md:mt-0'/>
             </div>
         </div>
     </section>

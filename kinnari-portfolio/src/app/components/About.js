@@ -1,14 +1,14 @@
 import React from 'react';
-
+import Image from 'next/image';
 
 const About = () => {
   return (
     <section id="about" className="p-8">
       <div className="container mx-auto block md:flex gap-8 grow">
         <div className= 'flex justify-center align-middle md:w-[100%] w-auto'>
-            <img src='/kinnari_tamhane.png' alt="Kinnari Tamhane" className='  rounded-3xl'/>
+            <Image src='/kinnari_tamhane.png' alt="Kinnari Tamhane" className='  rounded-3xl'/>
         </div>
-        <div className=''>
+        <div>
             <h2 className="text-3xl font-bold mt-5 mb-6 text-center md:text-left">About Me</h2>
             <p>
                 I am a Software Engineer with over 6.5 years of experience in the IT industry. 
@@ -18,7 +18,7 @@ const About = () => {
                    My web development tech stack contains HTML5, CSS3, JavaScript, Typescript, along with expertise in frameworks like React.js, Next.js, Node.js, Express, TailwindCss and various different tools along with SEO. 
                    </p>
                    <p className='mt-4 mb-4'>
-                   I have a solid educational foundation with a Bachelor's in Computer Engineering and a Diploma in Computer Engineering, both earned with distinction. Notable projects showcasing my ability to deliver impactful solutions. With a passion for innovation and a proven track record of success, I am dedicated to leveraging my expertise to drive growth and excellence in the tech landscape.
+                   I have a solid educational foundation with a Bachelor`s in Computer Engineering and a Diploma in Computer Engineering, both earned with distinction. Notable projects showcasing my ability to deliver impactful solutions. With a passion for innovation and a proven track record of success, I am dedicated to leveraging my expertise to drive growth and excellence in the tech landscape.
             </p>
             <div className='flex align-middle'>
                 <span className='mt-3 md:mt-4'>Explore My Codebase :</span>
