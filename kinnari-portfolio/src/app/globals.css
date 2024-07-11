@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bg-intro{
+  background: rgb(144,152,162);
+  background: linear-gradient(90deg, rgba(144,152,162,1) 21%, rgba(55,75,103,1) 61%, rgba(51,65,85,1) 100%);
+}
+
+#skills ul li{
+  border: 1px solid white;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.grow {
+  animation: grow 2s ease;
+}
+@keyframes grow {
+  from { transform: scale(0.5); }
+  to { transform: scale(1); }
+}
