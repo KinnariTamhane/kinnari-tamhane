@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-16 text-center">Tech Stack</h2>
         <p className='mt-6 mb-10 text-2xl md:text-3xl text-center' block>Web Designing - Frameworks - Libraries</p>
-        <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <ul className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
@@ -25,7 +25,7 @@ const Skills = () => {
         </ul>
 
         <p className='mt-10 mb-10 text-3xl text-center' block>Tools</p>
-        <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <ul className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <li>Google Optimize</li>
             <li>Bit.dev</li>
             <li>Git</li>
@@ -47,7 +47,7 @@ const Skills = () => {
         </ul>
 
         <p className='mt-10 mb-10 text-2xl md:text-3xl text-center' block>OS & Softwares - DevOps - Databases</p>
-        <ul className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <ul className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <li>Windows</li>
             <li>Linux</li>
             <li>macOs</li>

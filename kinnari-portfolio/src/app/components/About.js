@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section id="about" className="p-8">
       <div className="container mx-auto block md:flex gap-8 grow">
-        <div className= 'flex justify-center align-middle md:w-[100%] w-auto'>
-            <Image src='/kinnari_tamhane.png' alt="Kinnari Tamhane" className='  rounded-3xl'/>
-        </div>
+        {/* <div className= 'flex justify-center align-middle md:w-[100%] w-auto'>
+            <Image src='/kinnari_tamhane.png' alt="Kinnari Tamhane" className='rounded-3xl w-auto'  width={300} height={100}/>
+        </div> */}
         <div>
             <h2 className="text-3xl font-bold mt-5 mb-6 text-center md:text-left">About Me</h2>
             <p>

@@ -7,6 +7,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Introduction from './components/Introduction';
+import Experience from './components/Experience';
 
 export default function Home() {
   return (
@@ -18,9 +19,10 @@ export default function Home() {
       <main className='bg-slate-700'>
         <Introduction/>
         <About />
+        <Experience/>
         <Skills />
         <Education />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </div>
